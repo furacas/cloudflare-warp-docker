@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  warp:
+    image: furacas/cloudflare-warp:latest
+    container_name: cloudflare-warp
+    restart: always
+    environment:
+      - WARP_LICENSE=
+    ports:
+      - 40000:40000
