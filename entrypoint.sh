@@ -1,3 +1,4 @@
+#!/bin/bash 
 warp-svc &
 sleep 2
 warp-cli --accept-tos register
